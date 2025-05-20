@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Growling Duck Productions is a web development and graphic design company.">
+    <meta name="keywords" content="web development, graphic design, photography, video editing, logo design">
+    <meta name="author" content="Jesse Crane">
+    <meta name="robots" content="index, follow">
+    <link rel="icon" href="./media/GDP Logo notext noback.png" type="image/png">
+    <link rel="apple-touch-icon" href="./media/Growling Duck No Text2.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700">
+    <title>Growling Duck Productions</title>
+    <script src="./GDP.js"></script>
+    <link rel="stylesheet" href="./GDP.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo">Growling Duck <img src="./media/GDP Logo notext noback.png" width="80px" height="80px" alt="Growling Duck Logo"></a>
+        <div class="toggle" onclick="toggleMenu();"></div>
+        <ul class="menu">
+            <li><a href="#home" onclick="toggleMenu();">Home</a></li>
+            <li><a href="About.html" onclick="toggleMenu();">About</a></li>
+            <li><a href="#services" onclick="toggleMenu();">Services</a></li>
+            <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+        </ul>
+    </header>
+    <section class="banner" id="home">
+        <div class="textBx">
+            <h2>Welcome to<br><span>Growling Duck Productions</span></h2>
+            <h3>A Production Studio specializing in Web Development and Graphic Design for small businesses.</h3>
+            <a href="About.html" class="btn">Check Us Out</a>
+        </div>
+    </section>
+    <section class="services" id="services">
+        <div class="heading white">
+            <h2>Services</h2>
+            <h3>Growling Duck Productions specializes in the following areas</h3>
+        </div>
+        <div class="content">
+            <div class="servicesBx">
+                <img src="./media/icon1.png" alt="Web Design Icon">
+                <h2>Web Design</h2>
+                <h3>Want your business to standout on the web? GDP can design a first-class website. These are not cookie-cutter sites, but fully-coded, responsive websites that will be drive your business.</h3>
+            </div>
+            <div class="servicesBx">
+                <img src="./media/icon2.png" alt="Graphic Design Icon">
+                <h2>Web Development</h2>
+                <h3>Once we've designed a stellar website for your business, we can maintain it, keep if fresh, and ensure that your web presence is always ready to shine.</h3>
+            </div>
+            <div class="servicesBx">
+                <img src="./media/Growling Duck No Text2.png" class="no-invert" alt="Growling Duck Logo">
+                <h2>Logo Design</h2>
+                <h3>Need a logo that catches people's attention and drives them to your business? GDP can design a standalone logo or a full suite of complimentary images to represent your company. </h3>
+            </div>
+            <div class="servicesBx">
+                <img src="./media/icon4.png" alt="Photography Icon">
+                <h2>Photo Editing</h2>
+                <h3>Enhance your images with professional photo editing. Whether you need retouching, color correction, or creative effects, GDP can make your photos stand out and look their best for web or print.</h3>
+            </div>
+            <div class="servicesBx">
+                <img src="./media/icon5.png" alt="Content Writing Icon">
+                <h2>Content Writing</h2>
+                <h3>Not sure how to convey your companies message in the right words? Let GDP craft your mission statement and company bi-line, or create the content for your next brochure.</h3>
+            </div>
+            <div class="servicesBx">
+                <img src="./media/icon6.png" alt="Video Editing Icon">
+                <h2>Video Editing</h2>
+                <h3>Need to update your company's training videos? Let GDP splice and edit your next video project so that it appears crisp and clean on any screen
+                    size. </h3>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <div class="heading white">
+            <h2>Contact Growling Duck Productions</h2>
+            <h3>Send a message and I will reach out as soon as possible</h3>
+        </div>
+        <div class="content">
+            <div class="contactInfo">
+                <h3>Contact Info</h3>
+                <div class="contactInfoBx">
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-envelope-open"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Email</h3>
+                            <p><a href="mailto:info@growlingduck.com" style="font-size: 2em;">info@growlingduck.com</a></p>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div class="formBx">
+                <form>
+                    <h3>Drop Us A Message</h3>
+                    <input type="text" name="" placeholder="Full Name">
+                    <input type="email" name="" placeholder="Email">
+                    <textarea placeholder="Your Message"></textarea>
+                    <input type="submit" value="Send">
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
